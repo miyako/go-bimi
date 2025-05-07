@@ -1,6 +1,12 @@
 # go-bimi
 CLI to fetch BIMI icon
 
+## Usage
+
+```
+bimi <domain>
+```
+
 ```4d
 $domain:="amazon.com"
 //$domain:="bankofamerica.com"
