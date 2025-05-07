@@ -19,7 +19,6 @@ bimi <domain>
 $domain:="amazon.com"
 //$domain:="bankofamerica.com"
 
-
 var $cmd : Text
 var $stdin; $stdOut; $stdErr : Blob
 
@@ -33,7 +32,6 @@ $cmd+=" "+$domain
 LAUNCH EXTERNAL PROCESS($cmd; $stdin; $stdOut; $stdErr)
 
 If (BLOB size($stdOut)#0)
-	
 	
 	/*
 		bimi svg icon is not compatible with 4D SVG engine!
